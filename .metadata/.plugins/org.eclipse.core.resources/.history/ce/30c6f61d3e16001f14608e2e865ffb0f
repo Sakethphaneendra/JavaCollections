@@ -1,0 +1,25 @@
+package collectionFrameWork_Stack;
+
+
+//Write a Java program to demonstrate the basic stack operations 
+//(push, pop, peek, and search) using the Stack class.
+import java.util.Stack;
+import java.util.Scanner;
+public class BasicOperations {
+
+	public static void main(String[] args) {
+		Stack<Integer> stack = new Stack<>();
+		Scanner in = new Scanner(System.in);
+		System.out.println("Enter Elements :" );
+		
+		for(int i=0;i<5;i++) {
+			stack.push(in.nextInt());
+		}
+		System.out.println(stack + " " + stack.size());
+		
+		//stack.pop();  // Follows List In First Out [ LIFO Method ]
+
+		System.out.println(stack.peek());
+	}
+
+}

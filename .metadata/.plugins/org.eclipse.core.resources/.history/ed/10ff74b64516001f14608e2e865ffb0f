@@ -1,0 +1,10 @@
+package collectionFrameWork_Stack;
+
+public class SortingStack {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,56 @@
+package collectionFrameWork_Stack;
+import java.util.Stack;
+
+public class CheckBalancedParentheses {
+
+	public static void main(String[] args) {
+		CheckBalancedParentheses cbp = new CheckBalancedParentheses();
+		cbp.check("{<:[]>}");
+	}
+	
+//	Implement a Java function that uses a Stack to check if a given string containing
+//	parentheses, brackets, and braces is balanced.
+	public void check(String chaos) {
+		Stack<Character> stack = new Stack<Character>();
+		int B=0,C=0,P=0,Q=0;
+		for(int i=0;i<chaos.length();i++) {
+			stack.push(chaos.charAt(i));
+		}
+		System.out.println(stack);
+		
+		for(int i=0;i<stack.size();i++) {
+			char element = stack.pop();
+			switch(element) {
+				case '{':
+				case '}':
+					System.out.println(element);
+					C++; break;
+					
+				case '[':
+				case ']':
+					System.out.println(element);
+					B++; break;
+					
+				case '<':
+				case '>':
+					System.out.println(element);
+					Q++; break;
+					
+				case '(':
+				case ')':
+					System.out.println(element);
+					P++; break;
+			}
+		}
+		
+		if(B!=2){System.out.println("Brackets are not Completed"); B=-1;}
+		if(C!=2){System.out.println("Curly Brackets are not Completed");B=-1;}
+		if(P!=2){System.out.println("Parentheses are not Completed");B=-1;}
+		if(Q!=2){System.out.println("Quotations are not Completed");B=-1;}
+
+		if(B!=-1) {
+			System.out.println("All Opeartions are Completed");
+		}
+		
+	}
+}

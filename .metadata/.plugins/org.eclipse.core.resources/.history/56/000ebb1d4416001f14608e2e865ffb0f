@@ -1,0 +1,31 @@
+Sure, here are 10 programming tasks involving the Stack class in the Java Collection Framework:
+
+1. **Basic Stack Operations:**
+   Write a Java program to demonstrate the basic stack operations (push, pop, peek, and search) using the Stack class.
+
+2. **Check Balanced Parentheses:**
+   Implement a Java function that uses a Stack to check if a given string containing parentheses, brackets, and braces is balanced.
+
+3. **Reverse a String Using Stack:**
+   Write a Java program to reverse a string using a Stack.
+
+4. **Implement Queue Using Stacks:**
+   Design a Java class that implements a queue using two stacks.
+
+5. **Evaluate Postfix Expression:**
+   Create a Java function to evaluate a postfix expression using a Stack.
+
+6. **Sort a Stack:**
+   Write a Java program to sort the elements of a stack in ascending order using a temporary stack.
+
+7. **Find the Minimum Element in a Stack:**
+   Design a Java class to support push, pop, and retrieving the minimum element in constant time using a single stack.
+
+8. **Next Greater Element:**
+   Write a Java function that finds the next greater element for each element of an array using a Stack.
+
+9. **Infix to Postfix Conversion:**
+   Implement a Java function to convert an infix expression to a postfix expression using a Stack.
+
+10. **Stack with Middle Element Access:**
+    Create a Java class that supports push, pop, and finding the middle element of a stack in constant time, and allows deleting the middle element in constant time.
